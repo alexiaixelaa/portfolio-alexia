@@ -283,10 +283,11 @@ section {
 } 
 .about-pic {
     border-radius: 2rem;
+    display: flex;
 }
 .arrow {
     position: absolute;
-    right: -5rem;
+    right: -6rem;
     bottom: 30.5rem;
 }
   
@@ -348,6 +349,11 @@ article .icon {
     cursor: default;
 }
 /*PROJECTS*/
+#projects {
+    position: relative;
+    margin-top: 15rem;
+  }
+  
 .center {
     display: block;
     margin-left: auto;
@@ -398,6 +404,7 @@ article .icon {
 footer {
     height: 26vh;
     margin: 0 1rem;
+    flex: auto;
 }
   
 footer p {
