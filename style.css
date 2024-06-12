@@ -157,9 +157,13 @@ section {
     box-sizing: border-box;
     min-height: fit-content;
   }
-  
+  section:before, section:after {
+    content: " ";
+    display: table;
+}
   .section-container {
     display: flex;
+    margin-bottom: 10rem;
   }
   
 /* PROFILE SECTION */

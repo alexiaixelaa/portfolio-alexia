@@ -10,8 +10,10 @@
         display: flex;
         margin-top: 100%;
     }
-    
-}
+    section#profile{
+        margin-bottom: 0%;
+    }
+
 @media screen and (max-width: 1200px) {
     #desktop-nav {
       display: none;
@@ -95,7 +97,7 @@
     .section__text__p1 {
         font-size: 1.25rem;
     }
-    #p{
+    #p.section__text__p1{
         margin-top: 12rem;
     }
     .title {
