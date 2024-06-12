@@ -13,7 +13,7 @@
     section#profile{
         margin-bottom: 0%;
     }
-
+}
 @media screen and (max-width: 1200px) {
     #desktop-nav {
       display: none;
@@ -106,5 +106,13 @@
     .text-container {
         text-align: justify;
     }
-
+    section#about{
+        margin-top: 1rem;
+    }
+    section#experience{
+        margin-top: -50rem;
+    }
+    section#projects{
+        margin-top: 10rem;
+    }
 }

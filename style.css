@@ -173,7 +173,15 @@ section {
     gap: 5rem;
     height: 80vh;
 }
-  
+
+section#experience{
+    display: inline-block;
+    margin-top: 0rem;
+}
+section#projects{
+    display: inline-block;
+    margin-top: 20rem;
+}
 .section_pic-container {
     display: flex;
     height: 400px;
