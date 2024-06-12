@@ -107,12 +107,13 @@
         text-align: justify;
     }
     section#about{
-        margin-top: 1rem;
+        margin-top: 15rem;
     }
     section#experience{
-        margin-top: -50rem;
+           margin-top: -25rem;
     }
     section#projects{
-        margin-top: 10rem;
+        margin-top: 0rem;
+        margin-bottom: 10rem;
     }
 }
